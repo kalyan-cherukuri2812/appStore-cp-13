@@ -1,0 +1,51 @@
+.bg-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 40px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-family: bree serif;
+  color: #1e293b;
+}
+.search {
+  background-color: transparent;
+  border: 0px;
+  width: 200px;
+  outline: none;
+}
+.search-bar {
+  display: flex;
+  border: 2px solid #7b8794;
+  border-radius: 5px;
+  padding: 7px;
+}
+.search-img {
+  width: 20px;
+}
+.tab-ul {
+  margin: 10px;
+  display: flex;
+}
+.app-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .app-ul {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 930px) {
+  .app-ul {
+    width: 70%;
+  }
+}
